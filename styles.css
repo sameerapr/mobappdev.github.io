@@ -1,3 +1,4 @@
+/* General Styling */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -6,67 +7,111 @@ body {
 }
 
 .container {
-    width: 80%;
+    width: 90%;
+    max-width: 1200px;
     margin: 0 auto;
-    text-align: center;
-    background-color: white;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-header h1 {
+/* Header */
+.header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header h1 {
     font-size: 2.5em;
     color: #333;
 }
 
-header p {
+.header p {
     font-size: 1.2em;
-    color: #777;
+    color: #666;
 }
 
-.phone-mockup {
-    margin: 20px auto;
-    padding: 20px;
+/* Phone Section */
+.phone-section {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.phone {
+    width: 250px;
+    height: 400px;
     background-color: #e6e6e6;
-    width: 200px;
-    border-radius: 20px;
-    text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.phone-mockup h2 {
+.phone h2 {
     font-size: 1.5em;
     color: #555;
 }
 
-.info {
+/* About Section */
+.about-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.about-section h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+.about-section p {
+    font-size: 1em;
+    color: #666;
+    margin: 10px 0;
+}
+
+/* Innovation Section */
+.innovation-section {
     margin: 20px 0;
     padding: 20px;
     background-color: #e6f7ff;
     border: 1px solid #b3d9ff;
     border-radius: 10px;
     text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.info h3 {
+.innovation-section .icon {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 10px;
+    background-color: #0073e6;
+    border-radius: 50%;
+}
+
+.innovation-section h3 {
     color: #0073e6;
+    margin: 10px 0;
 }
 
-.info p {
+.innovation-section p {
     color: #333;
+    font-size: 1em;
+    margin: 10px 0;
 }
 
-button {
-    margin-top: 10px;
+.innovation-section button {
     padding: 10px 20px;
     border: none;
     background-color: #0073e6;
     color: white;
     border-radius: 5px;
     cursor: pointer;
+    transition: 0.3s;
 }
 
-button:hover {
+.innovation-section button:hover {
     background-color: #005bb5;
 }
