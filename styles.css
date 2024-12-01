@@ -1,0 +1,64 @@
+/* General Body Styling */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background: linear-gradient(to bottom, #cce7f9, #ffffff); /* Light blue gradient background */
+}
+
+/* Header Styling */
+.header {
+    text-align: center;
+    background-color: #007BFF; /* Blue background */
+    padding: 40px 20px;
+    color: white;
+}
+
+.company-name {
+    font-size: 2.8rem;
+    margin: 0;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Main About Us Section */
+.about-us-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    padding: 20px;
+}
+
+.about-us-card {
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+    max-width: 600px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Prominent shadow for depth */
+    text-align: center;
+}
+
+.about-us-card h2 {
+    font-size: 2rem;
+    color: #007BFF; /* Blue accent color */
+    margin-bottom: 15px;
+}
+
+.about-us-card p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Footer Styling */
+.footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    font-size: 0.9rem;
+}
