@@ -3,53 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - MobApp Dev</title>
+    <title>Mobile Developer Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <header class="header">
-            <h1>About Us</h1>
-            <p>Android App Development Company</p>
-        </header>
-        <main>
-            <div class="content">
-                <!-- Phone Mockup Section -->
-                <div class="phone-section">
-                    <div class="phone">
-                        <h2>MobApp Dev</h2>
-                    </div>
-                </div>
+    <!-- Header Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm John Doe</h1>
+            <p>Mobile App Developer | Innovator | Problem Solver</p>
+        </div>
+    </header>
 
-                <!-- About Us Section -->
-                <div class="about-section">
-                    <h2>About Us</h2>
-                    <p>
-                        We are a dedicated Android app development company focused on innovation and excellence.
-                    </p>
-                </div>
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>
+            I am a passionate mobile developer with experience in building user-friendly apps for Android and iOS. 
+            I specialize in Flutter, React Native, and native development. I love creating innovative solutions 
+            to make life easier for users.
+        </p>
+        <img src="developer.jpg" alt="Developer Portrait" class="about-image">
+    </section>
 
-                <!-- Innovation Section 1 -->
-                <div class="innovation-section">
-                    <div class="icon"></div>
-                    <h3>Innovation</h3>
-                    <p>
-                        Our mission is to push the boundaries of app design to create unique and user-friendly experiences.
-                    </p>
-                    <button>Learn More</button>
-                </div>
-
-                <!-- Innovation Section 2 -->
-                <div class="innovation-section">
-                    <div class="icon"></div>
-                    <h3>Innovation</h3>
-                    <p>
-                        We leverage cutting-edge technologies to develop apps that empower and inspire.
-                    </p>
-                    <button>Learn More</button>
-                </div>
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill">
+                <img src="android.png" alt="Android Development">
+                <p>Android Development</p>
             </div>
-        </main>
-    </div>
+            <div class="skill">
+                <img src="ios.png" alt="iOS Development">
+                <p>iOS Development</p>
+            </div>
+            <div class="skill">
+                <img src="flutter.png" alt="Flutter">
+                <p>Flutter</p>
+            </div>
+            <div class="skill">
+                <img src="nodejs.png" alt="Node.js">
+                <p>Node.js</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project">
+                <img src="project1.jpg" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>An e-commerce app that simplifies online shopping.</p>
+            </div>
+            <div class="project">
+                <img src="project2.jpg" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>A health tracker app for fitness enthusiasts.</p>
+            </div>
+            <div class="project">
+                <img src="project3.jpg" alt="Project 3">
+                <h3>Project 3</h3>
+                <p>A messaging app with real-time WebSocket integration.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <h2>Contact Me</h2>
+        <p>If you'd like to collaborate or have any questions, feel free to reach out!</p>
+        <a href="mailto:john.doe@example.com" class="contact-button">Email Me</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 John Doe. All rights reserved.</p>
+    </footer>
 </body>
 </html>
